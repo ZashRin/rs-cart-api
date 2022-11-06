@@ -161,7 +161,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/cart-service/dev/1667748371679-2022-11-06T15:26:11.679Z/cart-service.zip"
+          "S3Key": "serverless/cart-service/dev/1667748919261-2022-11-06T15:35:19.261Z/cart-service.zip"
         },
         "Handler": "dist/main.handler",
         "Runtime": "nodejs16.x",
@@ -184,14 +184,14 @@
         "MainLogGroup"
       ]
     },
-    "MainLambdaVersion3cTK16tvaDKrPQFE8EFfg0QsPUMYQGougk6K4E": {
+    "MainLambdaVersionwZNKRWzEU1gmM2keeqHv9cVDTHYQcaayqPW239w1XE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "MainLambdaFunction"
         },
-        "CodeSha256": "7S0gKAhxsacH1kJNN5dDp260a8nmGV1sJ7cg2x4skSQ="
+        "CodeSha256": "bdf4ZeYPJcdHjGAy6i5u/i9NH0SKrvgAfWd495oQCGU="
       }
     },
     "ApiGatewayRestApi": {
@@ -409,7 +409,7 @@
         "MainLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1667748329606": {
+    "ApiGatewayDeployment1667748879614": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -474,7 +474,7 @@
     "MainLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "MainLambdaVersion3cTK16tvaDKrPQFE8EFfg0QsPUMYQGougk6K4E"
+        "Ref": "MainLambdaVersionwZNKRWzEU1gmM2keeqHv9cVDTHYQcaayqPW239w1XE"
       },
       "Export": {
         "Name": "sls-cart-service-dev-MainLambdaFunctionQualifiedArn"
