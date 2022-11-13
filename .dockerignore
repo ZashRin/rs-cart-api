@@ -1,0 +1,11 @@
+# modules
+node_modules
+# distribution folder
+dist
+# logs
+npm-debug.log
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+# git files
+.git
+.gitignore
